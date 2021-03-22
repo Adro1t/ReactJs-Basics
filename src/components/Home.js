@@ -7,10 +7,10 @@ import Products from './Products'
 function Home() {
     return (
         <>
-            <NavBar/>
-            <Carousel/>
-            <Products/>
-            <Footer/> 
+            <NavBar />
+            <Carousel />
+            <Products />
+            <Footer />
         </>
     )
 }
