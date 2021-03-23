@@ -1,9 +1,28 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
     <>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <form className="d-flex">
+              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button className="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+
+          <div className="col-md-4">
+            <ul className="d-flex">
+              <li className="list-unstyled"><Link className="text-decoration-none p-3" to="/signup">SignUp</Link></li>
+              <li className="list-unstyled"><Link className="text-decoration-none p-3" to="/signin">SignIn</Link></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">E-Commerce</Link>
@@ -32,10 +51,7 @@ function NavBar() {
                 <Link className="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Disabled</Link>
               </li>
             </ul>
-            <form className="d-flex">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
           </div>
         </div>
       </nav>
