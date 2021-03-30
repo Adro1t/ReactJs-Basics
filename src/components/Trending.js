@@ -44,28 +44,28 @@ const Trending = () => {
                 <div className="row mt-3 mb-5">
                     <Slider {...settings}>
                         <div>
-                            <img src="images/c1.jpg" className="img-fluid" style={{height:'200px'}}/> 
+                            <img src="images/s1.jpg" className="img-fluid" style={{height:'200px'}}/> 
                         </div>
                         <div>
-                            <img src="images/c2.jpg" className="img-fluid" style={{height:'200px'}}/> 
+                            <img src="images/s2.jpg" className="img-fluid" style={{height:'200px'}}/> 
                         </div>
                         <div>
-                            <img src="images/c3.jpg" className="img-fluid" style={{height:'200px'}}/> 
+                            <img src="images/s3.jpg" className="img-fluid" style={{height:'200px'}}/> 
                         </div>
                         <div>
-                            <img src="images/c4.jpg" className="img-fluid" style={{height:'200px'}}/> 
+                            <img src="images/s4.jpg" className="img-fluid" style={{height:'200px'}}/> 
                         </div>
                         <div>
-                            <img src="images/c5.jpg" className="img-fluid" style={{height:'200px'}}/> 
+                            <img src="images/s5.jpg" className="img-fluid" style={{height:'200px'}}/> 
                         </div>
                         <div>
-                            <img src="images/c6.jpg" className="img-fluid" style={{height:'200px'}}/> 
+                            <img src="images/s6.jpg" className="img-fluid" style={{height:'200px'}}/> 
                         </div>
                         <div>
-                            <img src="images/c7.jpg" className="img-fluid" style={{height:'200px'}}/> 
+                            <img src="images/s7.jpg" className="img-fluid" style={{height:'200px'}}/> 
                         </div>
                         <div>
-                            <img src="images/c8.webp" className="img-fluid" style={{height:'200px'}}/> 
+                            <img src="images/s8.jpg" className="img-fluid" style={{height:'200px'}}/> 
                         </div>
                     </Slider>
                 </div>
