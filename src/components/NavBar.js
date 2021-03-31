@@ -40,6 +40,9 @@ function NavBar() {
               <li className="nav-item">
                 <Link className="nav-link text-white" to="/deals">Deals</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="/contact">Contact Us</Link>
+              </li>
               <li className="nav-item dropdown">
                 <Link className="nav-link dropdown-toggle text-white" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown</Link>
